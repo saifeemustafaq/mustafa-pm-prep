@@ -1,21 +1,18 @@
+import { Suspense } from 'react';
 import { getQuestionsFromMarkdown } from '@/lib/markdown';
-import QuestionList from '@/components/QuestionList';
+import { CategoryId } from '@/types';
+import StrategyQuestionsClient from './StrategyQuestionsClient';
+import Loading from '@/components/Loading';
 
+export const dynamic = 'force-dynamic';
 export const revalidate = 3600;
 
-export default async function StrategyQuestions() {
-  const questions = await getQuestionsFromMarkdown('strategy');
+export default async function StrategyQuestionsPage() {
+  const questions = await getQuestionsFromMarkdown('strategy' as CategoryId);
 
   return (
-    <div className="max-w-4xl mx-auto">
-      <div className="mb-8">
-        <h1 className="text-3xl font-bold mb-2">Strategy Questions</h1>
-        <p className="text-gray-600">
-          Practice answering questions about business strategy and market analysis.
-        </p>
-      </div>
-
-      <QuestionList questions={questions} category="strategy" />
-    </div>
+    <Suspense fallback={<Loading />}>
+      <StrategyQuestionsClient questions={questions} />
+    </Suspense>
   );
 } 

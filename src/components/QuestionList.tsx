@@ -9,7 +9,7 @@ import { useProgress } from '@/contexts/ProgressContext';
 
 interface QuestionListProps {
   questions: Question[];
-  category: string;
+  category: CategoryId;
   onProgressUpdate?: (progress: number) => void;
 }
 

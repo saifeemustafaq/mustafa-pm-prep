@@ -590,20 +590,23 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$cache$2e$ts__$
 ;
 ;
 const ProgressContext = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["createContext"])(undefined);
+// Initialize with all categories
+const initialProgress = {
+    behavioral: new Set(),
+    'product-design': new Set(),
+    strategy: new Set(),
+    execution: new Set(),
+    estimation: new Set()
+};
 function ProgressProvider({ children }) {
-    const [progress, setProgress] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])({});
+    const [progress, setProgress] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(initialProgress);
     // Load all progress on mount
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         const loadAllProgress = ()=>{
-            const categories = [
-                'behavioral',
-                'product-design',
-                'strategy',
-                'execution',
-                'estimation'
-            ];
-            const loadedProgress = {};
-            categories.forEach((category)=>{
+            const loadedProgress = {
+                ...initialProgress
+            }; // Start with default empty sets
+            Object.keys(initialProgress).forEach((category)=>{
                 const saved = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$cache$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["getFromCache"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$cache$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CacheKeys"].progress(category));
                 if (saved) {
                     try {
@@ -611,10 +614,7 @@ function ProgressProvider({ children }) {
                         loadedProgress[category] = new Set(parsed);
                     } catch (e) {
                         console.error(`Error loading progress for ${category}:`, e);
-                        loadedProgress[category] = new Set();
                     }
-                } else {
-                    loadedProgress[category] = new Set();
                 }
             });
             setProgress(loadedProgress);
@@ -631,7 +631,10 @@ function ProgressProvider({ children }) {
     }, []);
     const updateProgress = (category, questionId, completed)=>{
         setProgress((prev)=>{
-            const categoryProgress = new Set(prev[category] || []);
+            const newProgress = {
+                ...prev
+            };
+            const categoryProgress = new Set(prev[category]);
             if (completed) {
                 categoryProgress.add(questionId);
             } else {
@@ -640,7 +643,7 @@ function ProgressProvider({ children }) {
             // Save to localStorage
             (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$cache$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["setInCache"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$cache$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CacheKeys"].progress(category), JSON.stringify(Array.from(categoryProgress)));
             return {
-                ...prev,
+                ...newProgress,
                 [category]: categoryProgress
             };
         });
@@ -657,7 +660,7 @@ function ProgressProvider({ children }) {
         children: children
     }, void 0, false, {
         fileName: "[project]/src/contexts/ProgressContext.tsx",
-        lineNumber: 82,
+        lineNumber: 89,
         columnNumber: 5
     }, this);
 }

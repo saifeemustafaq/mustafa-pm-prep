@@ -3,5 +3,7 @@
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/behavioral/page": "app/behavioral/page.js",
   "/product-design/page": "app/product-design/page.js",
-  "/execution/page": "app/execution/page.js"
+  "/execution/page": "app/execution/page.js",
+  "/estimation/page": "app/estimation/page.js",
+  "/strategy/page": "app/strategy/page.js"
 }

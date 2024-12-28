@@ -1,31 +1,18 @@
 import { remark } from 'remark';
 import html from 'remark-html';
-import { CategoryId } from './constants';
+import { Question, CategoryId } from '@/types';
 import { getMarkdownContent } from './actions';
-
-export interface ParsedQuestion {
-  id: string;
-  title: string;
-  content: string;
-  howToAnswer?: string;
-  example?: string;
-  category: string;
-  subcategory: string;
-  difficulty?: 'easy' | 'medium' | 'hard';
-}
 
 async function markdownToHtml(markdown: string) {
   const result = await remark().use(html).process(markdown);
   return result.toString();
 }
 
-export async function getQuestionsFromMarkdown(category: CategoryId): Promise<ParsedQuestion[]> {
+export async function getQuestionsFromMarkdown(category: CategoryId): Promise<Question[]> {
   const fileContent = await getMarkdownContent(category);
   
-  const questions: ParsedQuestion[] = [];
+  const questions: Question[] = [];
   const sections = fileContent.split('\n## ');
-  
-  const categoryTitle = sections[0].split('\n')[0].replace('# ', '');
   
   for (const section of sections.slice(1)) {
     const lines = section.split('\n');
@@ -49,7 +36,7 @@ export async function getQuestionsFromMarkdown(category: CategoryId): Promise<Pa
         content: title,
         howToAnswer: howToAnswer ? await markdownToHtml(howToAnswer) : undefined,
         example: example ? await markdownToHtml(example) : undefined,
-        category: categoryTitle,
+        category,
         subcategory,
       });
     }

@@ -1,21 +1,18 @@
+import { Suspense } from 'react';
 import { getQuestionsFromMarkdown } from '@/lib/markdown';
-import QuestionList from '@/components/QuestionList';
+import { CategoryId } from '@/types';
+import ProductDesignQuestionsClient from './ProductDesignQuestionsClient';
+import Loading from '@/components/Loading';
 
+export const dynamic = 'force-dynamic';
 export const revalidate = 3600;
 
-export default async function ProductDesignQuestions() {
-  const questions = await getQuestionsFromMarkdown('product-design');
+export default async function ProductDesignQuestionsPage() {
+  const questions = await getQuestionsFromMarkdown('product-design' as CategoryId);
 
   return (
-    <div className="max-w-4xl mx-auto">
-      <div className="mb-8">
-        <h1 className="text-3xl font-bold mb-2">Product Design Questions</h1>
-        <p className="text-gray-600">
-          Practice answering questions about product design and user experience.
-        </p>
-      </div>
-
-      <QuestionList questions={questions} category="product-design" />
-    </div>
+    <Suspense fallback={<Loading />}>
+      <ProductDesignQuestionsClient questions={questions} />
+    </Suspense>
   );
 } 

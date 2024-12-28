@@ -645,23 +645,26 @@ var _s = __turbopack_refresh__.signature(), _s1 = __turbopack_refresh__.signatur
 ;
 ;
 const ProgressContext = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["createContext"])(undefined);
+// Initialize with all categories
+const initialProgress = {
+    behavioral: new Set(),
+    'product-design': new Set(),
+    strategy: new Set(),
+    execution: new Set(),
+    estimation: new Set()
+};
 function ProgressProvider({ children }) {
     _s();
-    const [progress, setProgress] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])({});
+    const [progress, setProgress] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(initialProgress);
     // Load all progress on mount
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "ProgressProvider.useEffect": ()=>{
             const loadAllProgress = {
                 "ProgressProvider.useEffect.loadAllProgress": ()=>{
-                    const categories = [
-                        'behavioral',
-                        'product-design',
-                        'strategy',
-                        'execution',
-                        'estimation'
-                    ];
-                    const loadedProgress = {};
-                    categories.forEach({
+                    const loadedProgress = {
+                        ...initialProgress
+                    }; // Start with default empty sets
+                    Object.keys(initialProgress).forEach({
                         "ProgressProvider.useEffect.loadAllProgress": (category)=>{
                             const saved = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$cache$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getFromCache"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$cache$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CacheKeys"].progress(category));
                             if (saved) {
@@ -670,10 +673,7 @@ function ProgressProvider({ children }) {
                                     loadedProgress[category] = new Set(parsed);
                                 } catch (e) {
                                     console.error(`Error loading progress for ${category}:`, e);
-                                    loadedProgress[category] = new Set();
                                 }
-                            } else {
-                                loadedProgress[category] = new Set();
                             }
                         }
                     }["ProgressProvider.useEffect.loadAllProgress"]);
@@ -697,7 +697,10 @@ function ProgressProvider({ children }) {
     }["ProgressProvider.useEffect"], []);
     const updateProgress = (category, questionId, completed)=>{
         setProgress((prev)=>{
-            const categoryProgress = new Set(prev[category] || []);
+            const newProgress = {
+                ...prev
+            };
+            const categoryProgress = new Set(prev[category]);
             if (completed) {
                 categoryProgress.add(questionId);
             } else {
@@ -706,7 +709,7 @@ function ProgressProvider({ children }) {
             // Save to localStorage
             (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$cache$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["setInCache"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$cache$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CacheKeys"].progress(category), JSON.stringify(Array.from(categoryProgress)));
             return {
-                ...prev,
+                ...newProgress,
                 [category]: categoryProgress
             };
         });
@@ -723,11 +726,11 @@ function ProgressProvider({ children }) {
         children: children
     }, void 0, false, {
         fileName: "[project]/src/contexts/ProgressContext.tsx",
-        lineNumber: 82,
+        lineNumber: 89,
         columnNumber: 5
     }, this);
 }
-_s(ProgressProvider, "1GWlvcYPVqypIG6wDbF2Qi05EuU=");
+_s(ProgressProvider, "u5VHgSuHZk03vguwAJpyp5p3Vcc=");
 _c = ProgressProvider;
 function useProgress() {
     _s1();

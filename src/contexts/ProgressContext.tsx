@@ -1,7 +1,7 @@
 'use client';
 
 import { createContext, useContext, useEffect, useState } from 'react';
-import { CategoryId } from '@/lib/constants';
+import { CategoryId } from '@/types';
 import { CacheKeys, getFromCache, setInCache } from '@/lib/cache';
 
 interface ProgressContextType {
@@ -12,27 +12,32 @@ interface ProgressContextType {
 
 const ProgressContext = createContext<ProgressContextType | undefined>(undefined);
 
+// Initialize with all categories
+const initialProgress: Record<CategoryId, Set<string>> = {
+  behavioral: new Set(),
+  'product-design': new Set(),
+  strategy: new Set(),
+  execution: new Set(),
+  estimation: new Set()
+};
+
 export function ProgressProvider({ children }: { children: React.ReactNode }) {
-  const [progress, setProgress] = useState<Record<CategoryId, Set<string>>>({});
+  const [progress, setProgress] = useState<Record<CategoryId, Set<string>>>(initialProgress);
 
   // Load all progress on mount
   useEffect(() => {
     const loadAllProgress = () => {
-      const categories = ['behavioral', 'product-design', 'strategy', 'execution', 'estimation'] as CategoryId[];
-      const loadedProgress: Record<CategoryId, Set<string>> = {};
+      const loadedProgress = { ...initialProgress }; // Start with default empty sets
 
-      categories.forEach(category => {
-        const saved = getFromCache(CacheKeys.progress(category));
+      Object.keys(initialProgress).forEach(category => {
+        const saved = getFromCache(CacheKeys.progress(category as CategoryId));
         if (saved) {
           try {
             const parsed = JSON.parse(saved);
-            loadedProgress[category] = new Set(parsed);
+            loadedProgress[category as CategoryId] = new Set(parsed);
           } catch (e) {
             console.error(`Error loading progress for ${category}:`, e);
-            loadedProgress[category] = new Set();
           }
-        } else {
-          loadedProgress[category] = new Set();
         }
       });
 
@@ -54,7 +59,9 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
 
   const updateProgress = (category: CategoryId, questionId: string, completed: boolean) => {
     setProgress(prev => {
-      const categoryProgress = new Set(prev[category] || []);
+      const newProgress = { ...prev };
+      const categoryProgress = new Set(prev[category]);
+      
       if (completed) {
         categoryProgress.add(questionId);
       } else {
@@ -68,7 +75,7 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
       );
 
       return {
-        ...prev,
+        ...newProgress,
         [category]: categoryProgress
       };
     });

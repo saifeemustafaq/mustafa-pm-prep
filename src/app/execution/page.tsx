@@ -1,21 +1,18 @@
+import { Suspense } from 'react';
 import { getQuestionsFromMarkdown } from '@/lib/markdown';
-import QuestionList from '@/components/QuestionList';
+import { CategoryId } from '@/types';
+import ExecutionQuestionsClient from './ExecutionQuestionsClient';
+import Loading from '@/components/Loading';
 
+export const dynamic = 'force-dynamic';
 export const revalidate = 3600;
 
-export default async function ExecutionQuestions() {
-  const questions = await getQuestionsFromMarkdown('execution');
+export default async function ExecutionQuestionsPage() {
+  const questions = await getQuestionsFromMarkdown('execution' as CategoryId);
 
   return (
-    <div className="max-w-4xl mx-auto">
-      <div className="mb-8">
-        <h1 className="text-3xl font-bold mb-2">Execution Questions</h1>
-        <p className="text-gray-600">
-          Practice answering questions about metrics, analysis, and problem-solving.
-        </p>
-      </div>
-
-      <QuestionList questions={questions} category="execution" />
-    </div>
+    <Suspense fallback={<Loading />}>
+      <ExecutionQuestionsClient questions={questions} />
+    </Suspense>
   );
 } 
