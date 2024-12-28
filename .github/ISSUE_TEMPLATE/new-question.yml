@@ -1,0 +1,51 @@
+name: New Interview Question
+description: Submit a new interview question
+title: "[Question]: "
+labels: ["content"]
+body:
+  - type: dropdown
+    id: category
+    attributes:
+      label: Question Category
+      description: Select the category for this question
+      options:
+        - "Behavioral: Achievement & Success"
+        - "Behavioral: Challenges & Problem-Solving"
+        - "Behavioral: Interpersonal & Collaboration"
+        - "Product Design: Product Analysis"
+        - "Product Design: New Product Design"
+        - "Product Design: Product Improvement"
+        - "Strategy: Market Entry & Expansion"
+        - "Strategy: Future Planning & Growth"
+        - "Execution: Metrics & Analysis"
+        - "Execution: Root Cause Analysis"
+        - "Estimation: Market Size & Scale"
+    validations:
+      required: true
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: Enter the interview question
+      placeholder: "Example: Tell me about your proudest professional achievement..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: how_to_answer
+    attributes:
+      label: How to Answer
+      description: Provide guidance on how to approach this question (optional)
+      placeholder: "Consider using frameworks like STAR (Situation, Task, Action, Result)..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: example
+    attributes:
+      label: Example Answer
+      description: Provide an example answer (optional)
+      placeholder: "A strong response would include..."
+    validations:
+      required: false 

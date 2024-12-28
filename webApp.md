@@ -266,6 +266,38 @@ The above submission would automatically create a markdown file in
 `content/behavioral/problem-solving/time-you-failed.md` with appropriate 
 frontmatter and formatting.
 
+### 6.6 Question Submission Journey
+
+1. **Accessing the Form**
+   - User navigates to the GitHub repository
+   - Clicks on "Issues" tab
+   - Selects "New Issue"
+   - Chooses "New Interview Question" template
+
+2. **Filling the Form**
+   - Question Category (selects from dropdown)
+   - Question Content (enters the interview question)
+   - How to Answer (optional guidance)
+   - Example Answer (optional example)
+
+3. **Submission Flow**
+   - User submits the issue
+   - GitHub Action automatically:
+     * Creates a new branch
+     * Processes the question
+     * Adds it to appropriate content file
+     * Creates a PR
+     * Comments back on the issue with PR link
+   - Maintainers review and merge the PR
+
+4. **Content Organization**
+   - Questions are automatically added to the correct section in:
+     * `/src/content/behavioral.md`
+     * `/src/content/product-design.md`
+     * `/src/content/strategy.md`
+     * `/src/content/execution.md`
+     * `/src/content/estimation.md`
+
 ### 7. Future Considerations
 Features for later phases:
 - Search functionality

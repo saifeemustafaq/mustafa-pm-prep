@@ -1,0 +1,136 @@
+name: Process New Question
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  process-question:
+    # Only run if issue uses our question template
+    if: contains(github.event.issue.labels.*.name, 'content')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Create Branch
+        run: |
+          # Create branch name from issue number and title
+          BRANCH_NAME="question/issue-${{ github.event.issue.number }}"
+          git checkout -b $BRANCH_NAME
+
+      - name: Process Question
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const issue = context.payload.issue;
+            const body = issue.body;
+            
+            // Parse the issue body to extract fields
+            const lines = body.split('\n');
+            let category = '';
+            let question = '';
+            let howToAnswer = '';
+            let example = '';
+            let currentSection = '';
+            
+            for (const line of lines) {
+              if (line.startsWith('### Question Category')) {
+                currentSection = 'category';
+                continue;
+              } else if (line.startsWith('### Question')) {
+                currentSection = 'question';
+                continue;
+              } else if (line.startsWith('### How to Answer')) {
+                currentSection = 'howToAnswer';
+                continue;
+              } else if (line.startsWith('### Example Answer')) {
+                currentSection = 'example';
+                continue;
+              }
+              
+              if (currentSection === 'category' && line.trim()) {
+                category = line.trim();
+              } else if (currentSection === 'question' && line.trim()) {
+                question += line.trim() + '\n';
+              } else if (currentSection === 'howToAnswer' && line.trim()) {
+                howToAnswer += line.trim() + '\n';
+              } else if (currentSection === 'example' && line.trim()) {
+                example += line.trim() + '\n';
+              }
+            }
+            
+            // Determine which content file to update
+            let contentFile = '';
+            if (category.startsWith('Behavioral:')) {
+              contentFile = 'src/content/behavioral.md';
+            } else if (category.startsWith('Product Design:')) {
+              contentFile = 'src/content/product-design.md';
+            } else if (category.startsWith('Strategy:')) {
+              contentFile = 'src/content/strategy.md';
+            } else if (category.startsWith('Execution:')) {
+              contentFile = 'src/content/execution.md';
+            } else if (category.startsWith('Estimation:')) {
+              contentFile = 'src/content/estimation.md';
+            }
+            
+            // Read existing content
+            let content = fs.readFileSync(contentFile, 'utf8');
+            
+            // Find the correct section to append the question
+            const sectionHeader = `### ${category.split(':')[1].trim()}`;
+            const newQuestion = `
+            ### ${question.trim()}
+            #### How to answer this
+            ${howToAnswer.trim()}
+            #### Example
+            ${example.trim()}
+            `;
+            
+            // Insert the new question after the section header
+            const parts = content.split(sectionHeader);
+            content = parts[0] + sectionHeader + newQuestion + parts[1];
+            
+            // Write updated content back to file
+            fs.writeFileSync(contentFile, content);
+
+      - name: Create Pull Request
+        id: create-pr
+        uses: peter-evans/create-pull-request@v5
+        with:
+          title: "Add new question from issue #${{ github.event.issue.number }}"
+          body: |
+            Adds new interview question from issue #${{ github.event.issue.number }}
+            
+            Category: ${{ github.event.issue.title }}
+          branch: question/issue-${{ github.event.issue.number }}
+          commit-message: "content: add new question from issue #${{ github.event.issue.number }}"
+          labels: content
+          delete-branch: true
+
+      - name: Add Comment To Issue
+        uses: peter-evans/create-or-update-comment@v3
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          body: |
+            Thank you for your contribution! 
+            I've created a pull request to add this question: ${{ steps.create-pr.outputs.pull-request-url }}
+
+      - name: Handle Errors
+        if: failure()
+        uses: peter-evans/create-or-update-comment@v3
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          body: |
+            Sorry, there was an error processing your question submission. 
+            Please check the workflow run for details: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }} 
