@@ -156,6 +156,23 @@ interview-questions/
     └── generate-question.js
 ```
 
+#### Sections and Subsections:
+Behavioral: Achievement & Success
+Behavioral: Challenges & Problem-Solving  
+Behavioral: Interpersonal & Collaboration
+
+Product Design: Product Analysis
+Product Design: New Product Design
+Product Design: Product Improvement
+
+Strategy: Market Entry & Expansion
+Strategy: Future Planning & Growth
+
+Execution: Metrics & Analysis
+Execution: Root Cause Analysis
+
+Estimation: Market Size & Scale
+
 #### 6.2 Question Validation Rules
 - Required metadata fields
 - Unique ID

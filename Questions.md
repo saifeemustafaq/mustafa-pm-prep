@@ -190,3 +190,20 @@ Citations:
 [8] https://www.reddit.com/r/ProductManagement/comments/jgd7m3/what_are_a_few_of_the_pm_job_interview_questions/
 [9] https://careerservices.fas.harvard.edu/blog/2024/08/13/every-product-manager-interview-question-you-need-to-know/
 [10] https://www.intuit.com/blog/innovative-thinking/15-product-manager-interview-questions-to-expect-during-your-next-job-search/
+
+Sections and Subsections:
+Behavioral: Achievement & Success
+Behavioral: Challenges & Problem-Solving  
+Behavioral: Interpersonal & Collaboration
+
+Product Design: Product Analysis
+Product Design: New Product Design
+Product Design: Product Improvement
+
+Strategy: Market Entry & Expansion
+Strategy: Future Planning & Growth
+
+Execution: Metrics & Analysis
+Execution: Root Cause Analysis
+
+Estimation: Market Size & Scale
