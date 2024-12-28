@@ -6,19 +6,34 @@
           "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
           "async": false
         },
-        "app/behavioral/page": {
-          "moduleId": "[project]/.next-internal/server/app/behavioral/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+        "app/execution/page": {
+          "moduleId": "[project]/.next-internal/server/app/execution/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        },
+        "app/product-design/page": {
+          "moduleId": "[project]/.next-internal/server/app/product-design/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
           "async": false
         },
         "app/strategy/page": {
           "moduleId": "[project]/.next-internal/server/app/strategy/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
           "async": false
+        },
+        "app/behavioral/page": {
+          "moduleId": "[project]/.next-internal/server/app/behavioral/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        },
+        "app/estimation/page": {
+          "moduleId": "[project]/.next-internal/server/app/estimation/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
         }
       },
       "layer": {
         "app/page": "action-browser",
+        "app/execution/page": "rsc",
+        "app/product-design/page": "rsc",
+        "app/strategy/page": "rsc",
         "app/behavioral/page": "rsc",
-        "app/strategy/page": "rsc"
+        "app/estimation/page": "rsc"
       }
     },
     "40cade360d5f6e88521eb5b0d37f10745523b36744": {
@@ -27,19 +42,34 @@
           "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
           "async": false
         },
-        "app/behavioral/page": {
-          "moduleId": "[project]/.next-internal/server/app/behavioral/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+        "app/execution/page": {
+          "moduleId": "[project]/.next-internal/server/app/execution/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        },
+        "app/product-design/page": {
+          "moduleId": "[project]/.next-internal/server/app/product-design/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
           "async": false
         },
         "app/strategy/page": {
           "moduleId": "[project]/.next-internal/server/app/strategy/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
           "async": false
+        },
+        "app/behavioral/page": {
+          "moduleId": "[project]/.next-internal/server/app/behavioral/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        },
+        "app/estimation/page": {
+          "moduleId": "[project]/.next-internal/server/app/estimation/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
         }
       },
       "layer": {
         "app/page": "action-browser",
+        "app/execution/page": "rsc",
+        "app/product-design/page": "rsc",
+        "app/strategy/page": "rsc",
         "app/behavioral/page": "rsc",
-        "app/strategy/page": "rsc"
+        "app/estimation/page": "rsc"
       }
     }
   },

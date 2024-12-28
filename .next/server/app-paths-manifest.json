@@ -1,6 +1,9 @@
 {
   "/page": "app/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/execution/page": "app/execution/page.js",
+  "/product-design/page": "app/product-design/page.js",
+  "/strategy/page": "app/strategy/page.js",
   "/behavioral/page": "app/behavioral/page.js",
-  "/strategy/page": "app/strategy/page.js"
+  "/estimation/page": "app/estimation/page.js"
 }
