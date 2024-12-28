@@ -19,11 +19,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${inter.className} bg-white`}>
         <ProgressProvider>
-          <div className="flex min-h-screen">
+          <div className="flex min-h-screen bg-white">
             <Sidebar />
-            <main className="flex-1 ml-60 p-8">
+            <main className="flex-1 ml-60 p-8 bg-white">
               {children}
             </main>
             <CacheControl />

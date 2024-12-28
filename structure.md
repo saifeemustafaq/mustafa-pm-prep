@@ -23,16 +23,20 @@ mustafasaifee@Mustafas-MacBook-Air-76 pm-interview-prep %
 │   │   │   ├── BehavioralQuestionsClient.tsx
 │   │   │   └── page.tsx
 │   │   ├── estimation
+│   │   │   ├── EstimationQuestionsClient.tsx
 │   │   │   └── page.tsx
 │   │   ├── execution
+│   │   │   ├── ExecutionQuestionsClient.tsx
 │   │   │   └── page.tsx
 │   │   ├── favicon.ico
 │   │   ├── globals.css
 │   │   ├── layout.tsx
 │   │   ├── page.tsx
 │   │   ├── product-design
+│   │   │   ├── ProductDesignQuestionsClient.tsx
 │   │   │   └── page.tsx
 │   │   └── strategy
+│   │       ├── StrategyQuestionsClient.tsx
 │   │       └── page.tsx
 │   ├── components
 │   │   ├── CacheControl.tsx
@@ -49,6 +53,8 @@ mustafasaifee@Mustafas-MacBook-Air-76 pm-interview-prep %
 │   │   ├── execution.md
 │   │   ├── product-design.md
 │   │   └── strategy.md
+│   ├── contexts
+│   │   └── ProgressContext.tsx
 │   ├── lib
 │   │   ├── actions.ts
 │   │   ├── cache.ts
@@ -57,7 +63,13 @@ mustafasaifee@Mustafas-MacBook-Air-76 pm-interview-prep %
 │   │   └── markdown.ts
 │   └── types
 │       └── index.ts
+├── structure.md
 ├── tailwind.config.js
 ├── tailwind.config.ts
 ├── tsconfig.json
 └── webApp.md
+
+
+```
+tree -I 'node_modules|dist|.git'
+```
