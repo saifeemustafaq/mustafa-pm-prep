@@ -1,7 +1,7 @@
 'use client';
 
 import { FC } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { Disclosure, Transition } from '@headlessui/react';
 import clsx from 'clsx';
 

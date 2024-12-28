@@ -1,9 +1,8 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Question } from '@/types';
+import { Question, CategoryId } from '@/types';
 import QuestionCard from './ui/QuestionCard';
-import { CacheKeys, getFromCache, setInCache, updateCacheTimestamp } from '@/lib/cache';
 import { motion } from 'framer-motion';
 import { createProgressUpdateEvent } from '@/lib/events';
 import { useProgress } from '@/contexts/ProgressContext';
