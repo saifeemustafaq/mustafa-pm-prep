@@ -88,38 +88,63 @@ jobs:
               }
             }
             
+            // Split category into main category and subsection
+            const [mainCategory, subsection] = category.split(':').map(s => s.trim());
+            
+            // Add debug logging
+            console.log('Main Category:', mainCategory);
+            console.log('Subsection:', subsection);
+            
             // Determine which content file to update
             let contentFile = '';
-            if (category.startsWith('Behavioral:')) {
-              contentFile = 'src/content/behavioral.md';
-            } else if (category.startsWith('Product Design:')) {
-              contentFile = 'src/content/product-design.md';
-            } else if (category.startsWith('Strategy:')) {
-              contentFile = 'src/content/strategy.md';
-            } else if (category.startsWith('Execution:')) {
-              contentFile = 'src/content/execution.md';
-            } else if (category.startsWith('Estimation:')) {
-              contentFile = 'src/content/estimation.md';
+            switch(mainCategory) {
+              case 'Behavioral':
+                contentFile = 'src/content/behavioral.md';
+                break;
+              case 'Product Design':
+                contentFile = 'src/content/product-design.md';
+                break;
+              case 'Strategy':
+                contentFile = 'src/content/strategy.md';
+                break;
+              case 'Execution':
+                contentFile = 'src/content/execution.md';
+                break;
+              case 'Estimation':
+                contentFile = 'src/content/estimation.md';
+                break;
+              default:
+                throw new Error(`Unknown category: ${mainCategory}`);
             }
             
             // Read existing content
             let content = fs.readFileSync(contentFile, 'utf8');
             
-            // Find the correct section to append the question
-            const sectionHeader = `### ${category.split(':')[1].trim()}`;
+            // Look for the subsection header
+            const sectionHeader = `## ${subsection}`;
+            
+            // Add debug logging
+            console.log('Looking for section:', sectionHeader);
+            console.log('File content preview:', content.substring(0, 500));
+            
+            const parts = content.split(sectionHeader);
+            
+            if (parts.length !== 2) {
+              console.log('Available sections:', content.match(/^## .+$/gm));
+              throw new Error(`Could not find section "${sectionHeader}" in ${contentFile}. Available sections logged above.`);
+            }
+            
             const newQuestion = `
+
             ### ${question.trim()}
             #### How to answer this
             ${howToAnswer.trim()}
             #### Example
             ${example.trim()}
+
             `;
             
             // Insert the new question after the section header
-            const parts = content.split(sectionHeader);
-            if (parts.length !== 2) {
-              throw new Error(`Could not find section "${sectionHeader}" in ${contentFile}`);
-            }
             content = parts[0] + sectionHeader + newQuestion + parts[1];
             
             // Write updated content back to file
