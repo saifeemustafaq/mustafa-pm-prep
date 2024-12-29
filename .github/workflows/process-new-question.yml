@@ -24,15 +24,25 @@ jobs:
             console.log('Body:', context.payload.issue.body);
 
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Fetch all history for all branches
+          token: ${{ secrets.GH_PAT }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '18'
 
+      - name: Configure Git
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
       - name: Create Branch
         run: |
-          # Create branch name from issue number and title
+          # Make sure we're on main branch
+          git checkout main
+          # Create and checkout new branch
           BRANCH_NAME="question/issue-${{ github.event.issue.number }}"
           git checkout -b $BRANCH_NAME
 
@@ -107,15 +117,26 @@ jobs:
             
             // Insert the new question after the section header
             const parts = content.split(sectionHeader);
+            if (parts.length !== 2) {
+              throw new Error(`Could not find section "${sectionHeader}" in ${contentFile}`);
+            }
             content = parts[0] + sectionHeader + newQuestion + parts[1];
             
             // Write updated content back to file
             fs.writeFileSync(contentFile, content);
 
+      - name: Commit Changes
+        run: |
+          git add .
+          git commit -m "content: add new question from issue #${{ github.event.issue.number }}"
+          git push origin HEAD
+
       - name: Create Pull Request
         id: create-pr
         uses: peter-evans/create-pull-request@v5
         with:
+          token: ${{ secrets.GH_PAT }}
+          base: main
           title: "Add new question from issue #${{ github.event.issue.number }}"
           body: |
             Adds new interview question from issue #${{ github.event.issue.number }}
