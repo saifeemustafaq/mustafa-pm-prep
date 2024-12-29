@@ -6,8 +6,8 @@ on:
 
 jobs:
   process-question:
-    # Only run if issue uses our question template
-    if: contains(github.event.issue.labels.*.name, 'content')
+    # Changed condition to check for template name
+    if: ${{ github.event.issue.template_name == 'New Interview Question' }}
     runs-on: ubuntu-latest
     permissions:
       contents: write
