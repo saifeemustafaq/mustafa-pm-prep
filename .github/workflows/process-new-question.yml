@@ -6,8 +6,6 @@ on:
 
 jobs:
   process-question:
-    # Changed condition to check for template name
-    if: ${{ github.event.issue.template_name == 'New Interview Question' }}
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -15,6 +13,16 @@ jobs:
       issues: write
 
     steps:
+      - name: Debug Issue Context
+        uses: actions/github-script@v7
+        with:
+          script: |
+            console.log('Issue Context:');
+            console.log('Template Name:', context.payload.issue.template_name);
+            console.log('Labels:', context.payload.issue.labels);
+            console.log('Title:', context.payload.issue.title);
+            console.log('Body:', context.payload.issue.body);
+
       - uses: actions/checkout@v4
 
       - name: Setup Node.js
