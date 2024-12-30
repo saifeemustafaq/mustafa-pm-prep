@@ -73,3 +73,11 @@ mustafasaifee@Mustafas-MacBook-Air-76 pm-interview-prep %
 ```
 tree -I 'node_modules|dist|.git'
 ```
+
+
+### This command will reset the current branch to the state of the localBranch branch.
+`git reset --hard localv4`
+
+
+### This command will push the `current branch to the remote origin and force the changes.
+`git push origin main --force`
