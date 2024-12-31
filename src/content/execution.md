@@ -3,9 +3,35 @@
 ## Metrics & Analysis
 ### Spotify has just launched a major podcast initiative. How would you measure its success? What would be your north star metric, and what supporting metrics would you track?
 #### How to Answer
-Focus on both podcast-specific metrics and their impact on overall platform engagement.
+
+When answering this question, start by acknowledging the importance of measuring success for a major initiative like Spotify's podcast launch. Begin your response by briefly explaining why choosing the right metrics is crucial for evaluating the initiative's performance and guiding future decisions.
+
+Next, introduce your chosen North Star metric, explaining why it's the most suitable indicator of success for this specific initiative. Be sure to highlight how this metric aligns with Spotify's overall business goals and reflects user value.
+
+After introducing the North Star metric, discuss 3-4 supporting metrics that provide a more comprehensive view of the initiative's performance. For each metric, briefly explain its relevance and how it complements the North Star metric.
+
+To structure your answer effectively, you might say something like: "To measure the success of Spotify's podcast initiative, I would focus on [North Star metric] as our primary indicator. This metric is crucial because [brief explanation]. To support this, I would also track [supporting metric 1], [supporting metric 2], and [supporting metric 3]."
+
 #### Example Answer
-Primary metric: Monthly Active Podcast Listeners, supporting metrics: average listening time, podcast completion rates.
+
+To measure the success of Spotify's major podcast initiative, I would propose the following metrics:
+
+North Star Metric: Weekly Active Podcast Listeners (WAPL)
+
+This metric directly reflects user engagement with the new podcast feature and aligns with Spotify's goal of becoming a leading platform for audio content. It's a clear indicator of how well the podcast initiative is resonating with users and driving regular engagement.
+
+Supporting metrics:
+
+1. Podcast Listening Time: This metric measures the total time users spend listening to podcasts weekly. It complements WAPL by providing insight into the depth of engagement, not just the breadth.
+
+2. Podcast-to-Music Ratio: This tracks the proportion of time users spend on podcasts versus music. It helps us understand if podcasts are cannibalizing music listening or if they're additive to overall platform usage.
+
+3. Podcast Discovery Rate: This measures the percentage of users who listen to a new podcast each week. It indicates how well our recommendation algorithms and discovery features are working.
+
+4. Podcast Retention Rate: This tracks the percentage of users who return to listen to subsequent episodes of a podcast series. It helps us understand the quality and stickiness of the podcast content we're offering.
+
+By focusing on Weekly Active Podcast Listeners as our North Star metric, we can gauge the overall success of the initiative in terms of user adoption. The supporting metrics provide deeper insights into user behavior, content quality, and the impact on Spotify's core music business. Together, these metrics offer a comprehensive view of the podcast initiative's performance and can guide future strategy and product decisions.
+
 
 ### You're leading TikTok's growth team. What metrics would you use to evaluate the platform's success in new markets? How would you determine if the growth is sustainable?
 #### How to Answer

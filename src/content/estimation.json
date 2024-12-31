@@ -1,0 +1,46 @@
+{
+  "categories": [
+    {
+      "cid": "c11",
+      "title": "Market Size & Scale",
+      "questions": [
+        {
+          "qid": "c11_q1", 
+          "title": "Estimate how many search queries Google processes per second globally. Consider different devices, regions, and usage patterns in your calculation.",
+          "sections": {
+            "how_to_answer": {
+              "content": "To approach this estimation question, start by breaking down the problem into smaller, manageable components. Begin your answer by stating your assumptions and the key factors you'll consider in your calculation.\n\nA good way to start is:\n\"To estimate the number of Google search queries per second globally, let's consider the following factors:\n- Global internet users\n- Percentage of users who use Google\n- Average searches per user per day\n- Regional variations in search behavior\"\n\nThen, walk through your calculation step-by-step, explaining your reasoning for each estimate. Consider:\n\n- Use round numbers to make calculations easier\n- Different devices (mobile vs. desktop)\n- Various regions (developed vs. developing countries)\n- Different usage patterns (peak hours vs. off-peak hours)\n\nRemember to sanity-check your final estimate against any known statistics or common sense. If your result seems off, explain why and adjust your assumptions accordingly."
+            },
+            "example_answer": {
+              "content": "\"Let's estimate the number of Google search queries per second globally:\n\n1. Global internet users: Approximately 5 billion\n\n2. Google's market share: Around 90% globally\n\n3. Active Google users: 5 billion * 90% = 4.5 billion\n\n4. Average searches per user per day:\n   - Assume 20 searches per day for active users\n   - 4.5 billion * 20 = 90 billion searches per day\n\n5. Regional variations:\n   - Developed countries (30% of users): 30 searches/day\n   - Developing countries (70% of users): 15 searches/day\n   - Weighted average: (30% * 30) + (70% * 15) = 19.5 searches/day\n   - Adjusted total: 4.5 billion * 19.5 = 87.75 billion searches/day\n\n6. Device split:\n   - Mobile (60%): 52.65 billion searches/day\n   - Desktop (40%): 35.1 billion searches/day\n\n7. Searches per second:\n   - 87.75 billion / 24 hours / 3600 seconds = 1,015,625 searches/second\n\n8. Accounting for peak hours:\n   - Assume peak hours have 50% more searches\n   - Peak hours (8 hours): 1,523,437 searches/second\n   - Off-peak hours (16 hours): 761,718 searches/second\n\n9. Weighted average:\n   (8 * 1,523,437 + 16 * 761,718) / 24 = 1,015,625 searches/second\n\nTherefore, I estimate that Google processes approximately 1 million search queries per second globally, with variations between 750,000 to 1.5 million depending on the time of day.\""
+            }
+          }
+        },
+        {
+          "qid": "c11_q2",
+          "title": "Estimate the number of dentists currently practicing in New York City. How would this number need to change to meet the city's needs over the next five years?",
+          "sections": {
+            "how_to_answer": {
+              "content": "To answer this question effectively, start by breaking it down into two main parts: estimating the current number of dentists and projecting future needs. Begin with a structured approach to estimate the current number of dentists in New York City. You can use population data, dentist-to-population ratios, and available statistics from dental associations or government sources.\n\nFor the estimation, consider using a top-down approach:\n\n1. Start with the total population of New York City\n2. Estimate the number of people typically served by one dentist\n3. Factor in variables like specialization, part-time practitioners, and geographic distribution\n\nFor the future projection, consider:\n\n- Population growth trends\n- Changes in dental care needs (e.g., aging population)\n- Technological advancements in dentistry\n- Economic factors affecting access to dental care\n\nUse a conversational tone and explain your reasoning clearly. For example, you might start with:\n\n\"To estimate the number of dentists in New York City, let's begin with the city's population and work our way down. According to recent data...\""
+            },
+            "example_answer": {
+              "content": "\"To estimate the number of dentists currently practicing in New York City, let's start with the city's population of approximately 8.5 million people. Based on the national average of about 61 dentists per 100,000 people, we might expect around 5,185 dentists in NYC. However, we need to adjust this figure for several factors specific to New York City.\n\nInitial Calculation:\n- City population: 8.5 million\n- National average: 61 dentists per 100,000 people\n- Base estimate: 5,185 dentists\n\nAdjustments:\n1. Urban concentration factor: +20% (major healthcare hub)\n   - Adjusted estimate: 6,220 dentists\n2. Part-time and academic roles: +10%\n   - Final current estimate: 6,840 practicing dentists\n\nFive-Year Projection Factors:\n\n1. Population growth:\n   - 1% annual growth → 8.93 million by 2029\n   - Additional need: 360 dentists\n\n2. Aging population:\n   - 5% increase needed\n   - Additional need: 340 dentists\n\n3. Technological advancements:\n   - Efficiency gains balance with specialized care needs\n   - Net impact: neutral\n\n4. Economic factors:\n   - 3% increase due to improved insurance access\n   - Additional need: 205 dentists\n\nFinal Projection:\n- Current dentists: 6,840\n- Additional needed: 905\n- Total needed in 5 years: 7,745\n- Annual growth needed: 181 dentists/year\n\nTo meet this growing demand, NYC should focus on:\n- Retention of current dentists\n- Recruitment of new graduates\n- Incentives for underserved areas\n- Education programs and loan forgiveness initiatives\""
+            }
+          }
+        },
+        {
+          "qid": "c11_q3",
+          "title": "Estimate the total addressable market for a new smart home security system in the United States.",
+          "sections": {
+            "how_to_answer": {
+              "content": "To estimate the total addressable market (TAM) for a new smart home security system in the United States, start by outlining a structured approach. Begin your answer by briefly explaining what TAM is and why it's important. Then, describe the method you'll use to calculate it, which in this case would be a top-down approach.\n\nBreak down your calculation into clear steps:\n\n1. Determine the total number of households in the U.S.\n2. Estimate the percentage of potential adopters\n3. Calculate the potential market size in terms of households\n4. Estimate the average annual revenue per household\n5. Calculate the final TAM\n\nKey considerations:\n- Market trends and consumer behavior\n- Regional variations in adoption rates\n- Income levels and affordability\n- Competition and market saturation\n\nAs you go through each step, explain your reasoning and cite relevant data or assumptions. Be prepared to justify your estimates with market trends, consumer behavior, or industry reports.\n\nHere's how you might start your answer:\n\"To estimate the total addressable market for a new smart home security system in the U.S., I'll use a top-down approach. First, let's consider the total number of households in the country...\""
+            },
+            "example_answer": {
+              "content": "\"To estimate the total addressable market for a new smart home security system in the U.S., I'll use a top-down approach.\n\nInitial Market Size:\n- Total U.S. households (2023): 128 million\n- Potential adoption rate: 60%\n- Target market size: 76.8 million households\n\nRevenue Calculation:\n1. Equipment costs:\n   - Average upfront cost: $300\n\n2. Monitoring services:\n   - Monthly fee: $30\n   - Annual monitoring: $360\n\n3. Total Annual Revenue per household:\n   - Equipment + Monitoring = $300 + $360\n   - Total per household: $660\n\nTotal Addressable Market:\n- Market size: 76.8 million households\n- Revenue per household: $660\n- TAM calculation: 76.8M * $660\n- Final TAM: $50.7 billion annually\n\nKey Considerations:\n- Urbanization rates impact adoption\n- Crime statistics affect demand\n- Smart home technology adoption trends\n- Income levels and affordability\n- Competition and market saturation\n\nThis high-level estimate could be refined with more detailed market research and segmentation, but it provides a solid baseline for the market opportunity.\""
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
