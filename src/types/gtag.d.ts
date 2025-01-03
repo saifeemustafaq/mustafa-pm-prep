@@ -3,6 +3,7 @@ interface Window {
     command: 'config' | 'event',
     targetId: string,
     config?: {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       [key: string]: any;
       page_path?: string;
       page_title?: string;
@@ -17,7 +18,7 @@ declare function gtag(
   command: 'config' | 'event',
   targetId: string,
   config?: {
-    [key: string]: any;
+    [key: string]: string | number | boolean | undefined;
     page_path?: string;
     page_title?: string;
     event_category?: string;
