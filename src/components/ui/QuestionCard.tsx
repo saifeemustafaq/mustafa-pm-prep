@@ -4,6 +4,7 @@ import { FC } from 'react';
 import { motion } from 'framer-motion';
 import { Disclosure, Transition } from '@headlessui/react';
 import clsx from 'clsx';
+import { event } from '@/lib/analytics';
 
 interface QuestionCardProps {
   title: string;
@@ -12,6 +13,7 @@ interface QuestionCardProps {
   example?: string;
   isCompleted: boolean;
   onToggleComplete: () => void;
+  category: string;
 }
 
 const QuestionCard: FC<QuestionCardProps> = ({
@@ -21,10 +23,20 @@ const QuestionCard: FC<QuestionCardProps> = ({
   example,
   isCompleted,
   onToggleComplete,
+  category,
 }) => {
   const handleCheckboxClick = (e: React.MouseEvent) => {
-    e.stopPropagation(); // Prevent the Disclosure from toggling
+    e.stopPropagation();
     onToggleComplete();
+    handleQuestionComplete();
+  };
+
+  const handleQuestionComplete = () => {
+    event({
+      action: 'complete_question',
+      category: 'User Progress',
+      label: `Question Completed in ${category}`,
+    });
   };
 
   return (

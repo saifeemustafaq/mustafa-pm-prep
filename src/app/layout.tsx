@@ -4,6 +4,9 @@ import "./globals.css";
 import Sidebar from "@/components/layout/Sidebar";
 import CacheControl from '@/components/CacheControl';
 import { ProgressProvider } from '@/contexts/ProgressContext';
+import GoogleAnalytics from '@/components/GoogleAnalytics';
+import { GA_MEASUREMENT_ID } from '@/lib/analytics';
+import { AnalyticsWrapper } from '@/components/AnalyticsWrapper';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,16 +22,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <GoogleAnalytics GA_MEASUREMENT_ID={GA_MEASUREMENT_ID} />
+      </head>
       <body className={`${inter.className} bg-white`}>
-        <ProgressProvider>
-          <div className="flex min-h-screen bg-white">
-            <Sidebar />
-            <main className="flex-1 ml-60 p-8 bg-white">
-              {children}
-            </main>
-            <CacheControl />
-          </div>
-        </ProgressProvider>
+        <AnalyticsWrapper>
+          <ProgressProvider>
+            <div className="flex min-h-screen bg-white">
+              <Sidebar />
+              <main className="flex-1 ml-60 p-8 bg-white">
+                {children}
+              </main>
+              <CacheControl />
+            </div>
+          </ProgressProvider>
+        </AnalyticsWrapper>
       </body>
     </html>
   );

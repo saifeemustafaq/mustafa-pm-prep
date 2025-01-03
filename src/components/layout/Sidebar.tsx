@@ -8,6 +8,7 @@ import Progress from '@/components/ui/Progress';
 import { CacheKeys, getFromCache, clearAllCache } from '@/lib/cache';
 import { categoryConfig, CategoryId } from '@/lib/constants';
 import { getQuestionCounts } from '@/lib/actions';
+import { event } from '@/lib/analytics';
 
 interface Category {
   name: string;
@@ -67,9 +68,24 @@ const Sidebar: FC = () => {
       clearAllCache();
       const counts = await getQuestionCounts();
       setQuestionCounts(counts);
+      
+      event({
+        action: 'clear_progress',
+        category: 'User Action',
+        label: 'Clear Progress Button Clicked',
+      });
     } finally {
       setIsClearing(false);
     }
+  };
+
+  const handleMoreOptionsToggle = () => {
+    setIsMoreOptionsOpen(!isMoreOptionsOpen);
+    event({
+      action: 'toggle_more_options',
+      category: 'User Action',
+      label: `More Options ${!isMoreOptionsOpen ? 'Opened' : 'Closed'}`,
+    });
   };
 
   // Listen for progress updates
@@ -100,7 +116,7 @@ const Sidebar: FC = () => {
 
       <div className="px-6 py-4 border-b border-gray-200 bg-white">
         <button
-          onClick={() => setIsMoreOptionsOpen(!isMoreOptionsOpen)}
+          onClick={handleMoreOptionsToggle}
           className={clsx(
             "w-full h-[42px] px-4 text-sm font-medium rounded-lg",
             "bg-white border border-gray-300 text-gray-700",

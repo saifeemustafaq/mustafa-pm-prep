@@ -111,9 +111,13 @@ export default function QuestionList({ questions, category, onProgressUpdate }: 
             {subcategoryQuestions.map((question) => (
               <QuestionCard
                 key={question.id}
-                {...question}
+                title={question.title}
+                content={question.content}
+                howToAnswer={question.howToAnswer}
+                example={question.example}
                 isCompleted={completedQuestions.has(question.id)}
                 onToggleComplete={() => toggleComplete(question.id)}
+                category={category}
               />
             ))}
           </div>
