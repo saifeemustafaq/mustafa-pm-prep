@@ -50,4 +50,6 @@ export const categoryConfig: Record<CategoryId, CategoryConfig> = {
     borderColor: 'border-rose-200',
     progressColor: 'linear-gradient(to right, #f43f5e, #e11d48)',
   },
-}; 
+};
+
+export const GA_TRACKING_ID = 'G-SG0P7EWJTS' 

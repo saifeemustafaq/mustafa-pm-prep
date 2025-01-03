@@ -5,7 +5,6 @@ import Sidebar from "@/components/layout/Sidebar";
 import CacheControl from '@/components/CacheControl';
 import { ProgressProvider } from '@/contexts/ProgressContext';
 import GoogleAnalytics from '@/components/GoogleAnalytics';
-import { GA_MEASUREMENT_ID } from '@/lib/analytics';
 import { AnalyticsWrapper } from '@/components/AnalyticsWrapper';
 
 const inter = Inter({ subsets: ["latin"] });
@@ -23,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <GoogleAnalytics GA_MEASUREMENT_ID={GA_MEASUREMENT_ID} />
+        <GoogleAnalytics />
       </head>
       <body className={`${inter.className} bg-white`}>
         <AnalyticsWrapper>

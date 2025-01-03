@@ -1,9 +1,12 @@
-
-mustafasaifee@Mustafas-MacBook-Air-76 pm-interview-prep % 
-
+mustafasaifee@Mustafas-MacBook-Air-76 mustafa-pm-prep % tree -I 'node_modules|dist|.git'
 .
+├── ActionItems
+├── Microsoft College only.md
+├── Microsoft.md
 ├── Questions.md
 ├── README.md
+├── Sources.md
+├── companiesInBay.md
 ├── eslint.config.mjs
 ├── next-env.d.ts
 ├── next.config.js
@@ -39,8 +42,11 @@ mustafasaifee@Mustafas-MacBook-Air-76 pm-interview-prep %
 │   │       ├── StrategyQuestionsClient.tsx
 │   │       └── page.tsx
 │   ├── components
+│   │   ├── AnalyticsWrapper.tsx
 │   │   ├── CacheControl.tsx
+│   │   ├── GoogleAnalytics.tsx
 │   │   ├── Loading.tsx
+│   │   ├── QuestionCard.tsx
 │   │   ├── QuestionList.tsx
 │   │   ├── layout
 │   │   │   └── Sidebar.tsx
@@ -48,26 +54,36 @@ mustafasaifee@Mustafas-MacBook-Air-76 pm-interview-prep %
 │   │       ├── Progress.tsx
 │   │       └── QuestionCard.tsx
 │   ├── content
+│   │   ├── TheTemplate.json
+│   │   ├── behavioral.json
 │   │   ├── behavioral.md
+│   │   ├── estimation.json
 │   │   ├── estimation.md
 │   │   ├── execution.md
 │   │   ├── product-design.md
 │   │   └── strategy.md
 │   ├── contexts
 │   │   └── ProgressContext.tsx
+│   ├── hooks
+│   │   └── useAnalytics.ts
 │   ├── lib
 │   │   ├── actions.ts
+│   │   ├── analytics.ts
 │   │   ├── cache.ts
 │   │   ├── constants.ts
 │   │   ├── events.ts
 │   │   └── markdown.ts
 │   └── types
+│       ├── gtag.d.ts
 │       └── index.ts
 ├── structure.md
 ├── tailwind.config.js
 ├── tailwind.config.ts
 ├── tsconfig.json
 └── webApp.md
+
+17 directories, 65 files
+mustafasaifee@Mustafas-MacBook-Air-76 mustafa-pm-prep % 
 
 
 ```

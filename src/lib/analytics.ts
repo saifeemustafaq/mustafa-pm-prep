@@ -1,25 +1,22 @@
-export const GA_MEASUREMENT_ID = 'G-8E85J5EKYP';
+import { GA_TRACKING_ID } from './constants'
 
+// Log a page view
 export const pageview = (url: string) => {
-  window.gtag('config', GA_MEASUREMENT_ID, {
+  window.gtag('config', GA_TRACKING_ID, {
     page_path: url,
-  });
-};
+  })
+}
 
-export const event = ({ 
-  action, 
-  category, 
-  label, 
-  value 
-}: { 
-  action: string;
-  category: string;
-  label: string;
-  value?: number;
+// Log a specific event
+export const event = ({ action, category, label, value }: {
+  action: string
+  category: string
+  label: string
+  value?: number
 }) => {
   window.gtag('event', action, {
     event_category: category,
     event_label: label,
     value: value,
-  });
-}; 
+  })
+} 

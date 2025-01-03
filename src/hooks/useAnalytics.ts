@@ -2,7 +2,7 @@
 
 import { useEffect } from 'react';
 import { usePathname, useSearchParams } from 'next/navigation';
-import { GA_MEASUREMENT_ID, pageview } from '@/lib/analytics';
+import { pageview } from '@/lib/analytics';
 
 export function useAnalytics() {
   const pathname = usePathname();
