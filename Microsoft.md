@@ -1,4 +1,528 @@
-Hello Everyone , wish you all a very happy new year!!!
+View conversation
+Open 9 replies from you, David D'Amico, Abhimanyu Warrier, and 1 other
+Mustafa Saifee
+6:37 PM
+Are you all okay if we make a whatsapp group to plan things out?
+David D'Amico
+6:38 PM
+yeah
+Mustafa Saifee
+6:39 PM
+https://chat.whatsapp.com/Ciox2eqU4LB1QeULe8gU82
+Here
+David D'Amico
+Abhimanyu Warrier
+mohnish gopi
+see more
+WhatsApp Group Invite
+WhatsApp Group Invite
+chat.whatsapp.com
+Reply
+Pranay Banka
+6:35 PM
+hi everyone!
+my name is Pranay and I’m a student at UC Berkeley studying econ and data science. I’ll be interning in finance next summer and super excited to be in Seattle.
+I love hiking, playing spikeball/pickleball, watching sitcoms (himym🙏), trying new restaurants, and going out.
+Feel free to add me/reach out on IG - pr4n4yb
+2 Like reactions.
+2
+2 Heart reactions.
+2
+View conversation
+Reply
+Riya B
+6:35 PM
+Hi everyone!
+ 
+I'm Riya, a junior at Carnegie Mellon University studying computer science. I'll be incoming as a SWE intern and am super excited to meet everyone!
+ 
+I love to travel, play the NYTimes crossword & connections, and run.
+ 
+Feel free to connect!
+Instagram: @ri.yab
+LinkedIn: https://www.linkedin.com/in/riya-bhatia1/
+1 Like reaction.
+View conversation
+Reply
+Kevin Basta
+6:32 PM
+Happy new year everyone!
+I'm Kevin and I am studying Computer Science at Toronto Metropolitan University. I'm very excited to be joining Microsoft as a SWE Intern this summer and I look forward to meeting everyone. 
+ 
+I enjoy hiking, tennis, and reading!
+ 
+Feel free to connect with me on LinkedIn
+LinkedIn: www.linkedin.com/in/kevinbasta/
+1 Heart reaction.
+View conversation
+Reply
+Chris Jeong
+12:46 PM
+Hey guys I'm Chris and I'm a junior at Brown doing CS and Math. I'm gonna be working on the payments backend for Azure. In my free time I like lifting, hiking, cafes, reading, watching movies, and playing clash of clans.
+ 
+IG: @chrisyjjeong
+linkedin: https://www.linkedin.com/in/chrisyjjeong/
+letterboxd: https://boxd.it/4x8dF
+ 
+ 
+ 
+6 Heart reactions.
+6
+View conversation
+Open 4 replies from Chris Jeong, Felix Hallmann, Samuel Hwang, and 1 other
+Samuel Hwang
+12:54 PM
+You inspired me to restart clash of clans my hero 🙇🏻‍♂️
+Felix Hallmann
+2:22 PM
+Clash of clans is definitely the move
+Chris Jeong
+6:31 PM
+Hi Aidan Ouckama
+Reply
+Gordon Wang
+6:05 PM
+Greetings, my fellow interns!
+ 
+I’m Gordon, a sophomore at the University of Waterloo, double majoring in Computer Science and Finance. I'm an incoming SWE intern for the Azure Org in Summer 2025.
+ 
+I'm really into sports. I mainly play soccer and football, but I also train MMA. I'm a huge fan of the NFL, NHL, and Premier League. If anyone shares these interests, feel free to reach out - I’d love to chat or hang out once I'm in Redmond.
+ 
+My IG: @g.wang12
+Linkedin: https://www.linkedin.com/in/gordon-wang-ab785b237/ 
+2 Heart reactions.
+2
+View conversation
+Hazael Magino
+6:18 PM
+What PL team you support?
+Gordon Wang
+6:22 PM
+Hazael Magino They are a bottom 5 PL team rn  Take a guess 
+Hazael Magino
+6:26 PM
+Everton? 😂
+Reply
+Mustafa Saifee
+6:13 PM
+Edited
+Happy New Year and Congratulations again!!
+Hi all, Happy New Year! 🎉
+Mustafa here from Carnegie Mellon University, I live in Mountain View, California and I will be joining as a PM Intern at Microsoft starting 12th May.
+ 
+LinkedIn: https://www.linkedin.com/in/saifeemustafa
+ 
+I love reading Manga, watching Anime and writing content. If you are around SF/Bay Area, let's catchup and meet.
+ 
+See you all soon 👋
+3 Heart reactions.
+3
+View conversation
+David D'Amico
+6:24 PM
+Hi Mustafa! I’m currently attending SJSU and live nearby Mountain View. This summer, I’ll be joining Microsoft as a PM, too. I also sent you a connection request on LinkedIn!
+Mustafa Saifee
+6:25 PM
+Hey hey David, nice to know you. Let's meet and catchup.
+DMing you.
+Reply
+bethel bellete
+6:20 PM
+Hello everyone!
+ 
+My name is Bethel and i am a junior at  University of Washington studying computer science. I am an incoming swe intern, i look forward to connect with you all!
+ 
+
+Hi everyone and happy new year!!! 
+ 
+My name is Monique Agura, I am originally from England but I am a junior Computer Science major at the University of Central Oklahoma! I'll be joining Microsoft this summer as a TPM intern for the Xbox organization! 
+ 
+I like watching shows/movies, trying out restaurants, creating artwork, working out, and exploring new horizons. I'm looking forward to meeting everyone! 
+ 
+Let's connect!
+Linkedin: https://linkedin.com/in/moniqueagura
+Instagram: https://instagram.com/mxniqueagura
+ 
+Nice to meet you! Your art is super dope
+ 
+Hi everyone!
+
+I’m Devern from Trinidad and Tobago in the Caribbean 🇹🇹. I’m currently a second-year Computer Science student at the University of the West Indies, and I’m thrilled to share that I’ll be joining Microsoft as an Explore Intern this summer!
+
+In my free time, I enjoy playing soccer, cooking, baking, and fishing. I’m excited to connect with all of you and look forward to learning and growing together. Feel free to reach out!
+
+Instagram: https://www.instagram.com/_devern
+
+LinkedIn: https://www.linkedin.com/in/devern-chattergoon-59964b287?
+ 
+Hi everyone!
+ 
+I'm Lu (Claire), a sophomore at MIT studying computer science. I'm an incoming SWE Intern and super excited to meet everyone!
+ 
+I like to play the cello, volleyball, skate, and travel.
+ 
+Feel free to connect
+Instagram: @c.l.a.i.r.e.c.h
+Linkedin: www.linkedin.com/in/claire-lu-chen
+ 
+Hi Lu, nice to meet you!
+ 
+Greetings
+Hello everyone!
+ 
+Happy New Year!  My name is Hazael Magino, and I am a junior Computer Engineering Major, with a focus in Cybersecurity at the University of Maryland, Baltimore County. I will be joining Microsoft as a Security Research Intern and couldn't be more excited to be apart of such bright and talented individuals this summer as part of the Microsoft Intern experience!
+ 
+A little about me: I am upcoming gym enthusiast, I enjoy track/running (but not for long distances...sprinter 4L) , hanging out, gaming (to an extent) , swimming , hiking (Eagle Scout thing I picked up) , and trying/learning new things. Basically, if its fun and challenging in some fashion, I'm in.
+ 
+Here's my LinkedIn if you would like to connect!
+https://www.linkedin.com/in/hazaelmagino2026/
+ 
+Can't wait to meet you all!
+ 
+P.S - Pineapple belongs on pizza
+ 
+Pineapple on pizza supporter ✊️🍕🍍
+ 
+hi yall, im aayush and im a returning swe intern this summer in redmond. im from the dallas area and am a junior at texas a&m. in my free time, i love playing & watching sports, going for runs, the gym, listening to lots of music and playing with dogs. my insta is @aayush.g15 (https://www.instagram.com/aayush.g15/) and linkedin is https://linkedin.com/in/aayushg1414, i’d love to connect with everyone!! also my start date is may 19th and i'm looking for a couple roommates to stay with in bellevue so feel free to reach out.
+
+also here are some beautiful pics of mt rainier at 4 am (id love to do this trip again this summer if anyone wants to join, the experience was actually surreal)
+ 
+Hi Aayush, those pics look sick! I'd love to tag along this summer!
+ 
+wow!! i'd love to come along too. i love the sky.
+ 
+Is anyone else doing cloud infrastructure acquisitions, development, portfolio management?
+ 
+Real estate right?
+ 
+More on the tech side… but still infrastructure planning I believe
+ 
+Interesting. Would be great to learn more about it when we start
+ 
+Happy New Year, everyone 🥳
+I am Daniel Enesi, a sophomore computer science major at GRAMBLING STATE UNIVERSITY and an incoming Software Engineering intern.
+ 
+I'm excited to meet you all and do impactful work at Microsoft
+I enjoy reading, singing, table tennis, math, and (Leet)coding.
+ 
+Connect with me on LinkedIn
+https://www.linkedin.com/in/enesidaniel/
+ 
+Nice to meet you Daniel!
+ 
+I read grambling as gambling 😭🙏. Nice to meet you!
+ 
+hery aguirre 😂😂😂
+Nice to meet you as well 
+ 
+Hey everyone!
+ 
+My name is Sean, a 4th year Business/CS student at Western University (shoutout Canada). I am joining Microsoft as a TPM Intern on Cloud Operations + Innovation. I'm super excited to explore Seattle for the summer.
+ 
+Core Hobbies: Anything performance arts (concerts, plays/musicals, jazz bar, etc...), massive karaoke enthusiast, gym and cinematography.
+Current Side-quests: making YouTube videos, becoming a morning person, and rating food spots 
+ 
+Would love to connect and yap!
+LinkedIn: https://www.linkedin.com/in/seanductran/
+Instagram: https://www.instagram.com/seanductran/
+ 
+Miles Nash Dude it’s so cooked but we shall become morning people ‼️
+ 
+Jazz bar?? Cocktail bar hopping incoming? 👀
+ 
+Samuel Hwang oh sooo down
+ 
+Hello! My name is Chloe Lim and I’m a junior at Rice University studying CS and data science. I’m an incoming SWE intern for the summer, very excited to meet you all!
+
+Some things I enjoy- racquet sports (tennis, pickleball, table tennis), baking, and trying new foods!! I've already started a google maps list of places I want to try in the Seattle area 😆
+
+Feel free to connect with me :)
+
+LinkedIn: https://www.linkedin.com/in/chloe-lim-a8839120b/
+
+Instagram: @chloe.limmy
+ 
+Hey all, 
+ 
+I'm Henok Assalif, and I'm a third-year computer engineering student at the University of Washington. I'll be a SWE intern under the M365 Core Org. Last summer, I had the opportunity to be a part of the Explore program, so I'm excited to see all the familiar and new faces  this summer at Redmond. 
+ 
+In my free time, I partake in playing badminton, going on runs, and watching anime. Having lived in Seattle almost all my life, if you are coming to the Greater Seattle Area for the first time and need suggestions on things to check out, let me know and I'll be more than happy to share tips. 
+ 
+Feel free to connect below: 
+ Instagram: henok.206
+ LinkedIn: www.linkedin.com/in/henok206
+ 
+ 
+ 
+ 
+Ayy, welcome back Henok 🙌
+ 
+
+Hi everyone!
+ 
+I’m Sarah and I’m a senior at UWaterloo studying CS! I’ll be in Redmond this summer as a SWE intern on Azure Networking.
+In my free time, I like sports (badminton, tennis, volleyball, hiking, kayaking), travelling, baking, and exploring new restaurants and places :)
+ 
+IG: @sarah__w__
+LinkedIn: https://www.linkedin.com/in/sarah-25a25b219/
+ 
+Canadians in the house!
+ 
+Hi everyone,
+
+My name is Faith Okeh, and I am a graduate student at the University of Arkansas at Little Rock, where I am studying Business Information Systems and Analytics.
+
+I am thrilled to join Microsoft as a PM intern this summer and can’t wait to connect with all of you.
+
+Feel free to reach out:
+
+LinkedIn:https://www.linkedin.com/in/okehfaith
+
+Instagram: ogefaith_
+
+Looking forward to an amazing experience!
+ 
+Hello and Happy New Year to everyone!
+
+I’m Raphael, a CS major and Junior at Bethune-Cookman University in Florida. I’ll be interning as a Software Engineer in the summer. Looking forward to meeting y’all and having fun! Let’s connect!
+
+Instagram: https://www.instagram.com/_raphb?igsh=MXBvYWtrbWNxOWFheA%3D%3D&utm_source=qr
+
+LinkedIn: https://www.linkedin.com/in/raphael-boakye-45a359202?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
+ 
+Happy New Year, everyone 🥳
+I am Daniel Osuoha, a sophomore computer science major at GRAMBLING STATE UNIVERSITY and an incoming Product Management intern.
+ 
+I'm excited to connect meet you all and contribute to meaningful projects at Microsoft.
+I like math, reading, singing, and coding.
+ 
+Feel free to connect
+https://www.linkedin.com/in/danielosuoha/
+ 
+Pleasure to meet you DANIEL!
+ 
+Hi!
+Hi everyone!
+ 
+My name is Asmitha Aluri, and I'm a second year Computer Science student at UC Irvine! I'll be an Explore Intern in Redmond this summer. I'm looking forward to meeting everyone, exploring the Seattle/Redmond, and taking on new challenges in the internship! Some of my hobbies are going to the gym, running, and hanging out with friends.
+ 
+Feel free to reach out to me; I would love to meet everyone!
+ 
+Linkedin: https://www.linkedin.com/in/asmithaaluri/
+Instagram: @asmithaa01
+ 
+HII omg I'm also from UCI😆
+ 
+ommggg hi cali!! small world!
+ 
+zot zot zot!
+ 
+Happy New Years everyone!
+ 
+My name is Felix Hallmann and I'm a sophomore at UC Irvine studying business information management and statistics. I'll be a SWE Intern this summer and I'm excited to meet everyone! In my free time, I enjoy going to raves, participating in water sports, and spending quality time with friends and family. 
+ 
+Feel free to connect with me on LinkedIn!
+ 
+https://www.linkedin.com/in/felix-hallmann/
+ 
+hi! i'm also a sophomore at uci!
+ 
+Hi everyone! 👋 I’m Xuanrui (Rebecca) Chen, a master’s student in Information Systems Management at Carnegie Mellon University.
+
+This summer, I’m excited to join Microsoft as a Data Science Intern in Redmond! 🌟 I can’t wait to meet all of you and learn together.
+
+In my free time, I enjoy playing the piano 🎹, singing karaoke 🎤, watching musicals 🎭, hiking 🥾, skiing ⛷️, playing tennis 🎾, working out 🏋️‍♀️, hanging out with friends 💃, and taking photos 📸. I’m always open to trying new things and exploring new experiences!
+
+Fun fact: I’m also a content creator on Xiaohongshu(Red), where I love to document and share snippets of my life. ✨
+
+Let’s connect!
+
+💼 LinkedIn: linkedin.com/in/xuanrui-chen
+
+📸 Instagram: @xuanruirebecca
+
+Looking forward to connecting and sharing ideas! 😊
+ 
+Hi everyone.
+ 
+My name is Ibrahim, and I'm studying computer science at Brown.
+ 
+I love hiking, travelling, and trying new food spots. I also play basketball and video games. 
+ 
+Feel free to reach out.
+instagram: @brahshah
+ 
+Hi everyone!
+ 
+My name is Linda, and I am a 3rd year at Virginia Tech studying Business & CS, from the Northern VA/Washington D.C area! I will be a Tech Consulting Intern this summer, and am super excited to meet everyone!
+ 
+I enjoy the outdoors, rock climbing, reading, & running! I am really excited to explore the Seattle area with you all, and also enjoy going on spontaneous weekend trips  
+ 
+feel free to reach out!!
+insta: lindahlee
+linkedin: https://www.linkedin.com/in/linda-lee90/
+ 
+Hi everyone,
+ 
+My name is Shirel Marino and I'll be joining Microsoft next summer as an Explore intern in the ODSP team. I'm a 2nd year CS student at Tecnologico de Monterrey in Mexico. I enjoy hiking and playing basketball.  
+ 
+Feel free to reach out !!
+LinkedIn: https://www.linkedin.com/in/shirelmr/
+Instagram: https://www.instagram.com/shirelmr/
+ 
+ 
+Hi Everyone!
+ 
+I'm Ramneek, a graduate student at Texas A&M University originally from India. This summer, I'll be heading to Redmond as an SDE intern, and I couldn't be more excited!
+I love hanging out, exploring new restaurants, traveling, playing tennis, and hitting the gym—but I’m always open to trying new things. 😊
+I’m currently looking for a female roommate/flatmate, so if you're on the lookout too, feel free to reach out!
+ 
+Let’s connect:
+
+📸 Instagram: @ramneek_kaur___
+
+💼 LinkedIn: Ramneek Kaur
+ 
+Hi, I'm Varsha. I'm also looking for a flatmate/roommate. 
+ 
+Hey everyone!
+
+My name is Grant Moon, and I’m from the Houston area. I’m excited to join next summer as a Tech Consultant Intern! I am currently pursuing a degree in Management Information Systems at the University of Houston, with plans to graduate in Fall 2025.
+
+In my free time, I enjoy music (both listening and attempting to create), basketball, gaming, volunteering, spending time with friends, and exploring new experiences. Lately, I’ve been trying to get into pickleball so if that’s your thing, let me know!
+
+Connect with me and reach out!
+
+LinkedIn: https://www.linkedin.com/in/grant-moon
+
+Instagram: grantmoon40
+ 
+
+Hello!
+Hi everyone. My name is Tolulope Ale; I am a PhD Candidate at the University of Maryland Baltimore County studying Information Systems.
+ 
+I am super excited about this opportunity to join Microsoft this summer as a DS intern. I am looking forward to meeting everyone in the summer. 
+ 
+Feel free to hit me up
+
+LinkedIn: https://www.linkedin.com/in/tolulope-ale-6001/
+
+IG: tuhaley
+ 
+Hi everyone!!!
+
+My name is Prisha Agnihotri, and I am a junior at the University of Michigan studying CS! I’ll be a SWE intern for the Redmond office this summer. In my free time, I like to hike, work out, and spend time with friends and family. I’m really looking forward to exploring the city and the nature around Seattle!
+
+LinkedIn: https://www.linkedin.com/in/prisha-agnihotri/
+
+Insta: https://www.instagram.com/prisha.agni/
+ 
+Hey! My name is Shweta and I am a junior computer science major at Texas A&M 🤠 and am from Dallas. This summer, I will be a Software Engineering Intern and am super excited to explore the city and nature! In my free time, I enjoy listening to music, journaling and photography, and hanging out with friends. I am super excited to meet you guys! I am also looking for roommates so feel free to reach out about that or to just chat :)
+ 
+LinkedIn: https://www.linkedin.com/in/shwetakumaran/
+Instagram: https://www.instagram.com/shwetak._/
+ 
+nyc intern meet-up
+hello again everyone!! i posted on linkedin earlier about the idea of a redmond microsoft intern get-together for those in or from the nyc area, and it turned into a group chat! i thought it'd be super cool if everyone who's here can make friends before they head to washington. if anyone in the area is interested, please reach out to me—i’ll add you asap. super excited to meet everyone!
+ 
+Hey there friends!
+ 
+I'm Xavier and I'll be a SWE intern on the AI Platform team. I'm a former Marine Corps Sergeant and currently go to school for CS at Southern New Hampshire University. I'm a huge nerd so I like playing video games or watching some anime and I also go to the gym. Like all of you I'm super excited for this opportunity and I can't wait to explore Washington and the surrounding area and to meet all of you! 
+ 
+Feel free to hit me up on LinkedIn: https://www.linkedin.com/in/xavier-hreben
+ 
+ 
+Let's Connect!
+Hey everyone, my name is Aditya and I'm a junior at UMich studying Urban Technology and CS. I'll be joining Microsoft this next summer as a TPM intern within the Cloud Operations + Innovations org.
+ 
+This next summer I'm most excited to play basketball, hike, go to public events, and overall explore as much as possible. I'm super excited for this summer and happy to connect! Feel free to DM me on LinkedIn or Instagram! 
+ 
+Linkedin: https://www.linkedin.com/in/adnim
+ 
+Instagram: @_adityanim
+ 
+Intro 🥳
+Hi everyone,
+
+My name is Mahad Osman and I’m a computer science major at the University of Maryland, Baltimore County. Originally from Silver Spring, MD. I’m going to be interning as a SWE! Excited to be interning with you all in the summer! 
+
+Hoping to connect @ https://www.linkedin.com/in/mahad-osman2
+
+Or via ig @mahados_
+ 
+Hi!
+Hello (and happy 2025)! I’m Bri and I’ll be joining Microsoft in Summer ‘25 as a SWE intern. I’m a 4th year CS major at the University of Oklahoma, and am looking forward to meeting everyone! 
+
+Hobbies include hanging out with my friends and family, listening to good music, and playing video games.
+
+Feel free to connect :)
+
+Linkedin: https://www.linkedin.com/in/brianna-patten
+Instagram: https://www.instagram.com/brianna.patten/profilecard/?igsh=MWs1ZHU5MjQ3c2R6bA==
+ 
+
+Hello everyone!
+ 
+My name is Aarya Mandvilkar, and I am a sophomore at the University of Maryland, College Park studying computer science with a double major in mathematics. I'll be joining Microsoft as a SWE Intern this summer!
+ 
+I am originally from New Jersey, and I love to dance, listen to music, and spend time with friends and family! I look forward to meeting everyone, exploring the city, and having fun this summer!
+ 
+Feel free to reach out!
+Linkedin: https://www.linkedin.com/in/aarya-mandvilkar-5b514b217/
+Instagram: https://www.instagram.com/aarya.mandvilkar?igsh=ZnF3ZHRuemRxYTZk
+ 
+Hello everyone,
+ 
+Happy New Years! My name is Vishal Tanguturu, junior at Rutgers - New Brunswick studying Computer Science and also in the Navy Reserves. I'll be a CTJ SWE Intern for Microsoft in Redmond this summer. I love playing video games, watching/playing all types of sports from basketball to football, working out and just having a good time with friends. Feel free to connect with me, I would love to meet and talk to new people. 
+ 
+LinkedIn - www.linkedin.com/in/venkata-tanguturu
+Instagram - https://www.instagram.com/vishal_tanguturu/
+ 
+Hi everyone and happy new year! I'm Nat and I'm currently doing Computer Engineering at UCLA. I'll be working in the firmware/embedded realm as a SW for HW intern in Redmond this summer. I enjoy rock climbing, watching musicals, playing guitar and bass, and brawlstars. 
+ 
+Instagram: @nat_letter_n
+Linkedin: https://www.linkedin.com/in/nat-nguyendinh/
+Brawlstars Friend Code:
+ 
+Happy New Year to all !
+I am Induja Narayanan and I'm doing Masters in Embedded Systems at University of Colorado at Boulder. I will be joining as SWE Intern this summer and am excited to meet you all!
+ 
+I enjoy travelling, listening to music and enjoying time with friends and family.
+ 
+Feel free to reach out and connect.
+linkedin: www.linkedin.com/in/induja-narayanan
+ 
+Hello everyone!
+ 
+I am a 3rd year Computer Engineering student from Oklahoma State University (Go Pokes!) specializing in Software Engineering with a minor in CS. I am looking forward to meeting everyone and contributing to Microsoft as a SWE intern!
+ 
+If you want to contact me here are some links:
+Instagram: https://www.instagram.com/imcolter/
+LinkedIn: https://www.linkedin.com/in/colterholmes/
+ 
+Hey everyone, My name is Ethan. I currently attend the University of Central Oklahoma. I am excited to be joining Microsoft as a software engineering intern. I look forward to meeting and working along with everyone at the Internship.
+ 
+I'm glad to finally see someone else from UCO! Roll 'Chos!!
+ 
+No way! I'm from Edmond currently attending OSU
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Hello Everyone , wish you all a very happy new year!!!
 Hi guys,
 My name is Vishwa Raj Venkatesh and I am originally from India. Currently pursuing my Masters in Computer Engineering at Texas A&M University. Very excited to meet you all and get it started as SWE intern at Microsoft. I have been selected under the team Azure Edge + Platform.
  

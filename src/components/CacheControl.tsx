@@ -14,7 +14,7 @@ const CacheControl: FC = () => {
   }, []);
 
   return (
-    <div className="text-sm text-gray-500">
+    <div className="text-sm text-gray-500 hidden">
       Last updated: {lastUpdated}
     </div>
   );

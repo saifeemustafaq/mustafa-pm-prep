@@ -119,7 +119,7 @@ Here's how you might start your answer:
 
 First, according to the U.S. Census Bureau, there are approximately 128 million households in the United States as of 2023.
 
-Next, we need to estimate the percentage of households that could potentially adopt smart home security systems. Based on current market trends and increasing awareness of home security, I'd estimate that about 60% of households could be potential customers. This gives us a potential market size of 76.8 million households (128 million * 60%).
+Next, we need to estimate the percentage of households that could potentially adopt smart home security systems. Based on current market trends and increasing awareness of home security, I would estimate that about 60% of households could be potential customers. This gives us a potential market size of 76.8 million households (128 million * 60%).
 
 Now, let's estimate the average annual revenue per household for smart home security systems. A typical smart home security package might include equipment costs and monthly monitoring fees. Let's assume an average upfront cost of $300 for equipment and an average monthly fee of $30 for monitoring services.
 

@@ -397,6 +397,6 @@ Another crucial aspect is involving engineers in the **decision-making process**
 
 I also believe in recognizing and celebrating the team's achievements. After successfully launching a complex feature that required significant overtime from our frontend team, I organized a team lunch and publicly acknowledged their efforts in our company-wide meeting. This gesture boosted **morale** and strengthened our bond as a team.
 
-Lastly, I always strive to be **reliable** and follow through on my commitments. When I promised our mobile dev team that I'd provide user feedback on the new app interface within a week, I made sure to deliver a comprehensive report on time. This **consistency** in my actions has helped build trust over time.
+Lastly, I always strive to be **reliable** and follow through on my commitments. When I promised our mobile dev team that I would provide user feedback on the new app interface within a week, I made sure to deliver a comprehensive report on time. This **consistency** in my actions has helped build trust over time.
 
 Through these strategies, I've been able to foster strong, collaborative relationships with engineering teams, leading to more efficient product development and a more positive work environment."
