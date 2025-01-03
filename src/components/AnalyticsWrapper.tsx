@@ -1,13 +1,20 @@
 'use client';
 
+import { Suspense } from 'react';
 import { useAnalytics } from '@/hooks/useAnalytics';
-import { ReactNode } from 'react';
 
-interface AnalyticsWrapperProps {
-  children: ReactNode;
+function AnalyticsComponent() {
+  useAnalytics();
+  return null;
 }
 
-export function AnalyticsWrapper({ children }: AnalyticsWrapperProps) {
-  useAnalytics();
-  return <>{children}</>;
+export function AnalyticsWrapper({ children }: { children: React.ReactNode }) {
+  return (
+    <>
+      <Suspense fallback={null}>
+        <AnalyticsComponent />
+      </Suspense>
+      {children}
+    </>
+  );
 } 
