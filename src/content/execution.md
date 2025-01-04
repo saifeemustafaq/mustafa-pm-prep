@@ -35,9 +35,53 @@ By focusing on Weekly Active Podcast Listeners as our North Star metric, we can 
 
 ### You're leading TikTok's growth team. What metrics would you use to evaluate the platform's success in new markets? How would you determine if the growth is sustainable?
 #### How to Answer
-Break down growth metrics into acquisition, engagement, and retention components.
+
+To answer this question effectively, start by acknowledging the importance of data-driven decision-making in evaluating TikTok's success in new markets. Begin your response with a statement like, "As the leader of TikTok's growth team, I would focus on a combination of user acquisition, engagement, and retention metrics to evaluate our success in new markets."
+
+Then, structure your answer around two main areas: growth metrics and sustainability indicators. For growth metrics, discuss key performance indicators (KPIs) that demonstrate TikTok's adoption and popularity in new markets. For sustainability, focus on metrics that show long-term user engagement and platform health.
+
+Be prepared to explain why you've chosen specific metrics and how they contribute to understanding TikTok's success. Also, consider mentioning how you would analyze these metrics over time and compare them across different markets to gain deeper insights.
+
+Here's a short starter example:
+
+"To evaluate TikTok's success in new markets, I would track several key metrics. First, I would look at our user acquisition rate and monthly active users (MAU) to gauge our initial traction. Then, I would dive deeper into engagement metrics like..."
+
 #### Example Answer
-Track Daily Active Users (DAU) growth rate, content creation ratio, and 30-day retention rates.
+
+As the leader of TikTok's growth team, I would use a combination of growth metrics and sustainability indicators to evaluate our platform's success in new markets. Here's how I would approach this:
+
+Growth Metrics:
+1. User Acquisition Rate: I would track the number of new users signing up daily/weekly/monthly to measure our initial traction in the market.
+2. Monthly Active Users (MAU): This would give us an idea of our overall user base and how it's growing over time.
+3. Daily Active Users (DAU): This metric would help us understand how many users are engaging with the platform regularly.
+4. DAU/MAU Ratio: This would indicate the stickiness of our platform in the new market.
+5. Download Rate: Tracking app store downloads would give us insights into market penetration.
+6. User Demographics: Understanding the age, gender, and location of our users would help us tailor our growth strategies.
+
+Sustainability Indicators:
+1. Retention Rate: I would analyze 7-day, 30-day, and 90-day retention rates to understand if users are finding long-term value in the platform.
+2. Average Time Spent per User: This would indicate how engaging our content is in the new market.
+3. Content Creation Rate: Tracking the number of videos created per user would show if we're building a healthy ecosystem of creators.
+4. Follower Growth Rate: This would indicate if users are building networks and finding content they enjoy.
+5. Engagement Rate: Metrics like likes, comments, and shares per video would show how interactive our community is.
+6. Hashtag Usage: Tracking trending hashtags would give insights into local content trends and cultural relevance.
+
+To determine if the growth is sustainable, I would:
+
+1. Compare our metrics to established markets: If our new market shows similar or better engagement and retention rates compared to mature markets, it's a good sign of sustainability.
+
+2. Analyze cohort behavior: By looking at how different user cohorts behave over time, we can predict long-term retention and engagement trends.
+
+3. Monitor content diversity: A sustainable platform should have a wide range of content categories. I would track the diversity of content being created and consumed.
+
+4. Assess network effects: I would look at how quickly users are building follower networks and how this correlates with retention.
+
+5. Track advertiser interest: While not directly related to user growth, increasing advertiser demand in the new market would indicate long-term business sustainability.
+
+6. Analyze competitive landscape: I would keep an eye on our performance relative to competitors in the market to ensure we're maintaining a strong position.
+
+By continuously monitoring these metrics and analyzing trends over time, we can gain a comprehensive understanding of our success in new markets and make data-driven decisions to ensure sustainable growth.
+
 
 ### Facebook is investing heavily in Groups. Design a measurement framework to evaluate whether this investment is paying off. What metrics would you prioritize and why?
 #### How to Answer
